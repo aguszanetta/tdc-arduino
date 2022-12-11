@@ -1,0 +1,37 @@
+{
+  "name": "tdc-arduino",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "startE": "electron .",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@serialport/bindings-cpp": "^10.8.0",
+    "express": "^4.18.2",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "18.2.0",
+    "serialport": "^10.5.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4",
+    "sweetalert2": "^11.6.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.11",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
